@@ -25,7 +25,7 @@ const topicsCardContainer = document.querySelector('[data-topics-card-container]
 let cards = [];
 
 
-let response = fetch("http://localhost:3000/cards")
+let response = fetch("./cards/db.json")
 .then(res => res.json())
 .then(data => {
 
